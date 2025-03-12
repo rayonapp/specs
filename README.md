@@ -2,26 +2,22 @@
 
 > **S**pecs **P**arallel **ECS**
 
-[![Build Status][bi]][bl] [![Crates.io][ci]][cl] [![Gitter][gi]][gl] ![MIT/Apache][li] [![Docs.rs][di]][dl] [![Code coverage][coi]][cov] ![LoC][lo]
+[![Build Status][bi]][bl] [![Crates.io][ci]][cl] [![Gitter][gi]][gl] ![MIT/Apache][li] [![Docs.rs][di]][dl]
 
-[bi]: https://travis-ci.org/amethyst/specs.svg?branch=master
-[bl]: https://travis-ci.org/amethyst/specs
+[bi]: https://github.com/amethyst/specs/actions/workflows/ci.yml/badge.svg?branch=master
+[bl]: https://github.com/amethyst/specs/actions/workflows/ci.yml
 
 [ci]: https://img.shields.io/crates/v/specs.svg
 [cl]: https://crates.io/crates/specs/
+
+[gi]: https://badges.gitter.im/slide-rs/specs.svg
+[gl]: https://gitter.im/slide-rs/specs
 
 [li]: https://img.shields.io/crates/l/specs.svg?maxAge=2592000
 
 [di]: https://docs.rs/specs/badge.svg
 [dl]: https://docs.rs/specs/
 
-[gi]: https://badges.gitter.im/slide-rs/specs.svg
-[gl]: https://gitter.im/slide-rs/specs
-
-[coi]: https://img.shields.io/codecov/c/gitlab/torkleyy/specs/master.svg
-[cov]: https://codecov.io/gl/torkleyy/specs/branch/master
-
-[lo]: https://tokei.rs/b1/github/slide-rs/specs?category=code
 
 Specs is an Entity-Component System written in Rust.
 Unlike most other ECS libraries out there, it provides
@@ -39,7 +35,7 @@ Minimum Rust version: 1.70
 
 ## [Link to the book][book]
 
-[book]: https://specs.amethyst.rs/docs/tutorials/
+[book]: https://amethyst.github.io/specs/docs/tutorials/
 
 ## Example
 
@@ -118,10 +114,10 @@ Please look into [the examples directory](examples) for more.
 
 | crate    | version                                                                                        |
 |----------|------------------------------------------------------------------------------------------------|
-| hibitset | [![hibitset](https://img.shields.io/crates/v/hibitset.svg)](https://crates.rs/crates/hibitset) |
-| rayon    | [![rayon](https://img.shields.io/crates/v/rayon.svg)](https://crates.rs/crates/rayon)          |
-| shred    | [![shred](https://img.shields.io/crates/v/shred.svg)](https://crates.rs/crates/shred)          |
-| shrev    | [![shrev](https://img.shields.io/crates/v/shrev.svg)](https://crates.rs/crates/shrev)          |
+| hibitset | [![hibitset](https://img.shields.io/crates/v/hibitset.svg)](https://crates.io/crates/hibitset) |
+| rayon    | [![rayon](https://img.shields.io/crates/v/rayon.svg)](https://crates.io/crates/rayon)          |
+| shred    | [![shred](https://img.shields.io/crates/v/shred.svg)](https://crates.io/crates/shred)          |
+| shrev    | [![shrev](https://img.shields.io/crates/v/shrev.svg)](https://crates.io/crates/shrev)          |
 
 ## Contribution
 

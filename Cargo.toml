@@ -5,8 +5,8 @@ description = """
 Specs is an Entity-Component-System library written in Rust.
 """
 documentation = "https://docs.rs/specs/"
-repository = "https://github.com/slide-rs/specs"
-homepage = "https://specs.amethyst.rs"
+repository = "https://github.com/amethyst/specs"
+homepage = "https://amethyst.github.io/specs"
 readme = "README.md"
 keywords = ["gamedev", "ecs", "entity", "component"]
 categories = ["concurrency", "game-engines"]
@@ -20,7 +20,7 @@ rust-version = "1.70.0"
 autobenches = false
 
 [dependencies]
-ahash = "0.7.6"
+ahash = "0.8.6"
 crossbeam-queue = "0.3"
 hibitset = { version = "0.6.4", default-features = false }
 log = "0.4.8"
@@ -49,9 +49,9 @@ shred-derive = ["shred/shred-derive"]
 features = ["parallel", "serde", "shred-derive", "specs-derive", "uuid_entity", "storage-event-control"]
 
 [dev-dependencies]
-nalgebra = "0.31"
+nalgebra = "0.32"
 criterion = "0.3.1"
-ron = "0.7.1"
+ron = "0.8.1"
 rand = "0.8"
 serde_json = "1.0.48"
 shred = { version = "0.16.0", default-features = false, features = ["shred-derive"] }
